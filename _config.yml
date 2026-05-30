@@ -1,0 +1,27 @@
+title: DapurJuara
+description: Review jujur peralatan dapur dan rumah tangga di Shopee Indonesia. Rice cooker, air fryer, blender, kompor — based on real cooking test.
+url: https://alisyahbanaku.github.io
+baseurl: /dapurjuara
+author: Iqbal
+lang: id-ID
+timezone: Asia/Jakarta
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: review
+      author: Iqbal
+
+exclude:
+  - README.md
+  - .gitignore
